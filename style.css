@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Roboto+Slab&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{font-size: 18px;}
+body{
+    background-image: url(imgs/new\ year.jpg);
+    min-height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+h1{
+    font-size: 3.5rem;
+    margin-top: 4rem;
+    font-weight: normal;
+}
+
+.countdown-container{
+    margin-top:2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-wrap: wrap;
+}
+
+.countdown-el{
+    width: 3rem;
+    margin:0 2rem;    
+    text-align: center;
+    line-height: 1;
+}
+
+.big-text{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
