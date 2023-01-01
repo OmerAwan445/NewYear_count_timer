@@ -1,5 +1,5 @@
 'use strict';
-const newYear='1 jan 2023';
+const newYear='1 jan 2024';
 const daysEl =document.querySelector('.days')
 const hoursEl=document.querySelector('.hours')
 const minutesEl=document.querySelector('.minutes')
